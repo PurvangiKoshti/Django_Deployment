@@ -16,7 +16,7 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path,include
-
+# for both application
 urlpatterns = [
     path('app/',include('myapp.urls')),
     path('travello/',include('travello.urls')),
